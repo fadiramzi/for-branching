@@ -1,7 +1,7 @@
 import csv
 #  open the file
 try:
-    file = open('staging.csv','r')
+    file = open('prod.csv','r')
     rowsReader = csv.reader(file)
 # ['#', 'name', 'age', 'email']
 # [1, dd, fsdf, df]
